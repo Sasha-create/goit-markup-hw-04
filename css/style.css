@@ -141,11 +141,6 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--top-nav-color);
-  margin-top: 0px;
-  margin-bottom: 30px;
-  padding-top: 200px;
-  padding-bottom: 280px;
-  max-widht: 696px;
 }
 
 .primary-button {
@@ -160,8 +155,6 @@ img {
   text-align: center;
   display: inline-block;
   padding: 10px 32px;
-  min-width: 200px;
-  margin-bottom: 200px;
 }
 
 .primary-button {
