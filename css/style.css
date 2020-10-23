@@ -1,4 +1,19 @@
 /*Style for index.html*/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .header-site {
   background-color: #ffffff;
@@ -83,9 +98,14 @@
   line-height: 1.87;
   letter-spacing: 0.06em;
   color: var(--top-nav-color);
-  display: flex;
   align-items: center;
   text-align: center;
+  display: inline-block;
+  width: 136px;
+  height: 30px;
+  left: 732px;
+  top: 440px;
+  margin: 10px, 32px;
 }
 
 .primary-button {
@@ -93,6 +113,12 @@
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  display: inline-block;
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
 }
 
 .primary-button:hover,

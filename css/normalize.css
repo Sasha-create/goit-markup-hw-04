@@ -102,6 +102,7 @@ body {
   letter-spacing: 0.03em;
   background: var(--primary-text-color);
   color: var(--title-text-color);
+  margin: 0px;
 }
 
 .link {
