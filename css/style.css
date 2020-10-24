@@ -32,7 +32,8 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
+  hight: auto;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
@@ -130,6 +131,7 @@ img {
   background: var(--dark-background-color);
   max-width: 100%;
   height: auto;
+  margin: auto;
 }
 
 .head-logo-type {
@@ -141,6 +143,10 @@ img {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--top-nav-color);
+  padding-top: 200px;
+  padding-bottom: 280px;
+
+  margin-bottom: 30px;
 }
 
 .primary-button {
@@ -155,6 +161,7 @@ img {
   text-align: center;
   display: inline-block;
   padding: 10px 32px;
+  margin-bottom: 200px;
 }
 
 .primary-button {
@@ -183,13 +190,19 @@ img {
 .section-distance {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
 }
 
 .hidden-header {
-  padding-right: -30px;
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px 1px 1px 1px);
+  padding: 0px;
+  border: 0px;
+  height: 0px;
+  width: 0px;
+  overflow: hidden;
 }
+
 .flex-box {
   display: flex;
   justify-content: space-between;
@@ -208,7 +221,6 @@ img {
 .flex-photo {
   display: flex;
   flex-wrap: wrap;
-  padding-right: 30px;
 }
 
 .title {
@@ -244,7 +256,7 @@ img {
   color: #212121;
   text-align: center;
   margin-bottom: 50px;
-  padding-right: -30px;
+  margin-top: -94px;
 }
 
 .team-list {
@@ -259,8 +271,6 @@ img {
 
 .main-heros {
   position: absolute;
-  width: 1600px;
-
   background: #f5f4fa;
 }
 
@@ -399,4 +409,12 @@ img {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: white;
+}
+
+.address-link {
+  margin: 0;
+  margin-bottom: 9px;
+}
+.contacts-footer .location:not(:last-child) {
+  margin-bottom: 9px;
 }
