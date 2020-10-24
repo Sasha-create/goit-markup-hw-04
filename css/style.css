@@ -375,10 +375,8 @@ img {
 }
 
 .img-item {
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 20px;
-  width: 370px;
+  max-width: 370px;
 }
 
 .link {
@@ -398,6 +396,7 @@ img {
   color: #212121;
   text-decoration-line: none;
   margin-bottom: 4px;
+  padding-top: 20px;
 }
 
 .type-work {
