@@ -18,25 +18,29 @@
   <body>
     <!--Шапка сайта-->
 
-    <header>
-      <div class="header-site link">
-        <nav>
-          <a href="./portfolio.html" class="logo link"
+    <header class="header-site link">
+      <div class="container header-container">
+        <nav class="navigation">
+          <a href="./portfolio.html" class="logo link menu menu-item"
             ><span class="logo-web">Web</span>Studio</a
           >
-          <ul class="site-nav list">
-            <li><a href="./index.html" class="link">Студия</a></li>
-            <li>
+          <ul class="site-nav list menu">
+            <li class="menu-item">
+              <a href="./index.html" class="link">Студия</a>
+            </li>
+            <li class="menu-item">
               <a href="./portfolio.html" class="current link">Портфолиo</a>
             </li>
-            <li><a href="#contacts" class="link">Контакты</a></li>
+            <li class="menu-item">
+              <a href="#contacts" class="link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="contact-nav list">
-          <li>
+        <ul class="contact-nav list menu">
+          <li class="menu-item">
             <a href="mailto:info@devstudio" class="link">info@devstudio</a>
           </li>
-          <li>
+          <li class="menu-item">
             <a href="tel:+380961111111" class="link">+38 096 111 11 11</a>
           </li>
         </ul>
@@ -47,135 +51,145 @@
 
     <main>
       <section class="title-portfolio">
-        <h1 hidden>Portfolio</h1>
-        <ul class="list">
-          <li><button type="button" class="btn title-button">Все</button></li>
-          <li>
-            <button type="button" class="btn title-button">Веб-сайты</button>
-          </li>
-          <li>
-            <button type="button" class="btn title-button">Приложения</button>
-          </li>
-          <li>
-            <button type="button" class="btn title-button">Дизайн</button>
-          </li>
-          <li>
-            <button type="button" class="btn title-button">Маркетинг</button>
-          </li>
-        </ul>
-        <ul class="list img-work">
-          <li>
-            <a href="./"
-              ><img
-                src="./images/img01.jpg"
-                alt="Ноутбук с 3 лицами"
-                width="370"
-              />
-              <h2 class="title-work">Технокряк</h2>
-              <p class="type-work">Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img
-                src="./images/img02.jpg"
-                alt="Два баскетболиста"
-                width="370"
-              />
-              <h2 class="title-work">Постер New Orlean vs Golden Star</h2>
-              <p class="type-work">Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img src="./images/img03.jpg" alt="Рыба и буквы" width="370" />
-              <h2 class="title-work">Ресторан Seafood</h2>
-              <p class="type-work">Приложение</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img src="./images/img04.jpg" alt="Ноушники" width="370" />
-              <h2 class="title-work">Проект Prime</h2>
-              <p class="type-work">Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img src="./images/img05.jpg" alt="Две коробки" width="370" />
-              <h2 class="title-work">Проект Boxes</h2>
-              <p class="type-work">Приложение</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img src="./images/img06.jpg" alt="Монитор" width="370" />
-              <h2 class="title-work">Inspiration has no Borders</h2>
-              <p class="type-work">Веб-сайт</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img
-                src="./images/img07.jpg"
-                alt="Развернутый журнал"
-                width="370"
-              />
-              <h2 class="title-work">Издание Limited Edition</h2>
-              <p class="type-work">Дизайн</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img
-                src="./images/img08.jpg"
-                alt="Бирка с буквами"
-                width="370"
-              />
-              <h2 class="title-work">Проект LAB</h2>
-              <p class="type-work">Маркетинг</p></a
-            >
-          </li>
-          <li>
-            <a href="./"
-              ><img
-                src="./images/img09.jpg"
-                alt="Мужчина работает за наутбуком"
-                width="370"
-              />
-              <h2 class="title-work">Growing Business</h2>
-              <p class="type-work">Приложение</p></a
-            >
-          </li>
-        </ul>
+        <div class="container">
+          <h1 hidden>Portfolio</h1>
+          <ul class="list menu menu-button">
+            <li><button type="button" class="btn title-button">Все</button></li>
+            <li>
+              <button type="button" class="btn title-button">Веб-сайты</button>
+            </li>
+            <li>
+              <button type="button" class="btn title-button">Приложения</button>
+            </li>
+            <li>
+              <button type="button" class="btn title-button">Дизайн</button>
+            </li>
+            <li>
+              <button type="button" class="btn title-button">Маркетинг</button>
+            </li>
+          </ul>
+        </div>
+        <div class="container">
+          <ul class="list img-work">
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img
+                  src="./images/img01.jpg"
+                  alt="Ноутбук с 3 лицами"
+                  width="370"
+                />
+                <h2 class="title-work">Технокряк</h2>
+                <p class="type-work">Веб-сайт</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img
+                  src="./images/img02.jpg"
+                  alt="Два баскетболиста"
+                  width="370"
+                />
+                <h2 class="title-work">Постер New Orlean vs Golden Star</h2>
+                <p class="type-work">Дизайн</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img src="./images/img03.jpg" alt="Рыба и буквы" width="370" />
+                <h2 class="title-work">Ресторан Seafood</h2>
+                <p class="type-work">Приложение</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img src="./images/img04.jpg" alt="Ноушники" width="370" />
+                <h2 class="title-work">Проект Prime</h2>
+                <p class="type-work">Маркетинг</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img src="./images/img05.jpg" alt="Две коробки" width="370" />
+                <h2 class="title-work">Проект Boxes</h2>
+                <p class="type-work">Приложение</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img src="./images/img06.jpg" alt="Монитор" width="370" />
+                <h2 class="title-work">Inspiration has no Borders</h2>
+                <p class="type-work">Веб-сайт</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img
+                  src="./images/img07.jpg"
+                  alt="Развернутый журнал"
+                  width="370"
+                />
+                <h2 class="title-work">Издание Limited Edition</h2>
+                <p class="type-work">Дизайн</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img
+                  src="./images/img08.jpg"
+                  alt="Бирка с буквами"
+                  width="370"
+                />
+                <h2 class="title-work">Проект LAB</h2>
+                <p class="type-work">Маркетинг</p></a
+              >
+            </li>
+            <li class="img-link">
+              <a class="img-item" href="./"
+                ><img
+                  src="./images/img09.jpg"
+                  alt="Мужчина работает за наутбуком"
+                  width="370"
+                />
+                <h2 class="title-work">Growing Business</h2>
+                <p class="type-work">Приложение</p></a
+              >
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!--Контакты-->
 
     <footer class="footer">
-      <a href="./portfolio.html" class="logo-footer"
-        ><span class="logo-web">Web</span>Studio</a
-      >
-      <address id="contacts">
-        <ul class="list">
-          <li>
-            <a
-              href="https://goo.gl/maps/rWAJ1AhQzPDFPeK29"
-              target="_blank"
-              rel="noopener noreferer"
-              class="letter"
-              >г.Киев, пр-т Леси Украинки, 26</a
-            >
-          </li>
-          <li>
-            <a href="mailto:info@example.com" class="email">info@example.com</a>
-          </li>
-          <li>
-            <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <div class="bottom-footer">
+          <a href="./portfolio.html" class="logo-footer"
+            ><span class="logo-web">Web</span>Studio</a
+          >
+          <address id="contacts">
+            <ul class="list contacts-footer">
+              <li class="location address-link">
+                <a
+                  href="https://goo.gl/maps/rWAJ1AhQzPDFPeK29"
+                  target="_blank"
+                  rel="noopener noreferer"
+                  class="letter"
+                  >г.Киев, пр-т Леси Украинки, 26</a
+                >
+              </li>
+              <li class="location">
+                <a href="mailto:info@example.com" class="email"
+                  >info@example.com</a
+                >
+              </li>
+              <li class="location">
+                <a href="tel:+380991111111" class="phone">+38 099 111 11 11</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+      </div>
     </footer>
   </body>
 </html>

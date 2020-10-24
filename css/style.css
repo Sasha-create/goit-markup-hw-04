@@ -312,7 +312,9 @@ img {
 /*Style for portfolio.html*/
 
 .title-potfolio {
-  text-decoration: var(--head-text-color);
+  text-decoration: var(--head-text-color)
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .title-button {
@@ -330,6 +332,7 @@ img {
   background: #f5f4fa;
   border-radius: 4px;
 }
+
 .btn {
   font-family: inherit;
   font-weight: 500;
@@ -338,6 +341,9 @@ img {
   text-align: center;
   cursor: pointer;
   letter-spacing: 0.03em;
+  margin-right: 8px;
+  display: inline-block;
+  border: 0px;
 }
 
 .title-button:hover {
@@ -348,6 +354,29 @@ img {
 .title-button:active {
   color: var(--top-nav-color);
   background: var(--accent-color);
+}
+
+.menu-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 56px;
+}
+
+.img-work {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.img-link {
+  margin-bottom: 30px;
+}
+
+.img-item {
+  margin-bottom: 20px;
+  width: 370px;
 }
 
 .link {
@@ -366,6 +395,7 @@ img {
   letter-spacing: 0.06em;
   color: #212121;
   text-decoration-line: none;
+  margin-bottom: 4px;
 }
 
 .type-work {
@@ -376,6 +406,7 @@ img {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   text-decoration-line: none;
+  margin-bottom: 20px;
 }
 
 .footer {
