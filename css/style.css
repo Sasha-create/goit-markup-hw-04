@@ -57,8 +57,6 @@ img {
 .site-nav {
  
   margin-left: 84px;
-  
-  
   width: 294px;
   height: 16px;
   letter-spacing: 0.02em;
@@ -162,7 +160,7 @@ img {
 /* head baner*/
 
 .baner {
-  
+ 
   
 }
 
@@ -239,9 +237,9 @@ img {
   margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 0;
-  padding-left: 15px;
+  padding-left: 0;
   padding-right: 15px;
-  background: #e5e5e5;
+  
   
 }
 
@@ -249,10 +247,10 @@ img {
   width: 1200px;
   margin: auto;
   padding-top: 94px;
-  padding-bottom: 0;
-  padding-left: 15px;
+  padding-bottom: 94px;
+  padding-left: 0;
   padding-right: 15px;
-  background: #e5e5e5;
+  
   
 }
 
@@ -306,7 +304,7 @@ margin-right: 0px;
   display: flex;
   flex-wrap: wrap;
  margin-right: 30px;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   max-width: 370px;
   height: 294px;
 }
@@ -318,12 +316,6 @@ margin-right: 0px;
 
 .content-photo:nth-child(3n) {
   margin-right: 0px;
-}
-
-.content-photo img {
-  margin-top: 0;
-  margin-bottom: 94px;
-  
 }
 
 
@@ -384,10 +376,10 @@ margin-right: 0px;
 
 .main-heros {
   padding-top: 94px;
-  padding-bottom: 0;
-  width: 1200px;
+  padding-bottom: 94px;
+  max-width: 1200px;
   margin: auto;
-  padding-left: 15px;
+  padding-left: 0;
   padding-right: 15px;
 }
 
@@ -411,7 +403,7 @@ margin-right: 0px;
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  min-width: 1200px;
+  width: 1200px;
   padding: 0;
   margin: 0;
 }
@@ -436,7 +428,7 @@ margin-right: 0px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 margin-right: 30px;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   width: 270px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
@@ -481,6 +473,16 @@ box-sizing: border-box;
 
 /*Style for portfolio.html*/
 
+.portfolio-page {
+ width: 1200px;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .title-potfolio {
   background: #FFFFFF;
   text-decoration: var(--head-text-color)
@@ -528,7 +530,7 @@ box-sizing: border-box;
 .menu-button {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
+  padding-top: 0;
   padding-bottom: 0;
   margin-top: 0;
   margin-bottom: 50px;
@@ -567,9 +569,6 @@ box-sizing: border-box;
   margin-bottom: 20px;
 }
 
-.link {
-  background: var(--hero-background-color);
-}
 
 .img-work a {
   text-decoration-line: none;

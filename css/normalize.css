@@ -87,7 +87,7 @@
     url("../fonts/raleway-v18-latin_cyrillic-700.svg#Raleway") format("svg");
 }
 :root {
-  --primary-text-color: #e5e5e5;
+  --primary-text-color: #ffffff;
   --title-text-color: #757575;
   --accent-color: #2196f3;
   --hero-background-color: #f5f4fa;
