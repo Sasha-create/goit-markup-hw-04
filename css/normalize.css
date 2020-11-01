@@ -120,6 +120,7 @@ body {
 /*Style for index.html*/
 html {
   box-sizing: border-box;
+  line-height: 1.15;
 }
 
 *,
