@@ -629,10 +629,10 @@ height: 30px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 0;
-margin-right: 0;
-margin-top: 0;
-margin-bottom: 0;}
+  margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+margin-bottom: auto;}
 
 
 .footer a {
@@ -646,8 +646,7 @@ margin-bottom: 0;}
   display: flex;
   flex-direction: column;
   padding-bottom: 0;
-  width: auto;
-height: auto;
+  
 }
 
 
