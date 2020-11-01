@@ -618,11 +618,19 @@ height: 30px;
   color: #ffffff;
   background: #2f303a;
   height: auto;
-  padding-top: 0;
-  padding-bottom: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
   width: 1600px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+.footer .container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;}
+
 
 .footer a {
   font-style: normal;
@@ -632,17 +640,20 @@ height: 30px;
 }
 
 .bottom-footer {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0;
+  width: auto;
+height: auto;
 }
 
+
 .address {
+  width: 231px;
+height: auto;
   margin-top: 0;
   margin-bottom: 0;
-  padding-top: 20px;
+  padding-top: 0;
   padding-bottom: 0;
 
 }
@@ -677,17 +688,21 @@ height: 30px;
 height: 31px;
 margin-top: 0;
   margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .address-link {
   margin-top: 0;
   margin-bottom: 9px;
+  margin-left: 0;
+  margin-right: 0;
 }
 .contacts-footer .location:not(:last-child) {
   margin-bottom: 9px;
 }
 
 .contacts-footer {
-width: 231px;
-height: 81px;}
+width: auto;
+height: auto;}
 
