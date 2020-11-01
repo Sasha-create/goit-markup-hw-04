@@ -621,7 +621,7 @@ height: 30px;
   padding-top: 60px;
   padding-bottom: 60px;
   width: 1600px;
-  margin-left: auto;
+  margin-left: 215px;
   margin-right: auto;
 }
 
@@ -629,10 +629,8 @@ height: 30px;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: 200px;
-margin-right: auto;
-margin-top: auto;
-margin-bottom: auto;}
+  margin: auto;
+}
 
 
 .footer a {
