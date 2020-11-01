@@ -168,13 +168,13 @@ img {
 .head-baner {
   text-align: center;
   background: var(--dark-background-color);
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0;
+  padding-right: 0;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  
+  width: auto;
   
 }
 
@@ -286,7 +286,7 @@ img {
 .flex-photo .content-box {
   width: calc((100% - 90px) / 4);
   margin-right: 30px;
-  margin-bottom: 94px;
+  margin-bottom: 0;
   width: 270px;
 } 
 
