@@ -63,12 +63,14 @@ img {
   letter-spacing: 0.02em;
 }
 
-.site-nav li {
-  padding-left: auto;
-  padding-right: auto;
+.site-nav .link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
-}
+  padding: auto;
+  
+  }
+
 .contact-nav {
   display: flex;
   margin-left: auto;
@@ -76,8 +78,8 @@ img {
 
 
 .menu .menu-item+ .menu-item {
+ margin-left: 50px; 
   
-  margin-left: 50px;
 }
 
 .navigation {
@@ -107,9 +109,7 @@ img {
   display: block;
   padding-top: 24px;
   padding-bottom: 25px;
-  
   margin-right: 93px;
- 
   width: 145px;
 }
 
@@ -188,8 +188,8 @@ img {
   text-transform: uppercase;
   color: var(--top-nav-color);
   display:inline-block;
-  
   width: 696px;
+  height: 120px;
   margin-top: 0;
   margin-bottom: 30px;
 }
