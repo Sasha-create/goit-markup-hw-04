@@ -59,7 +59,7 @@ img {
  
   margin-left: 84px;
   width: 294px;
-  height: 16px;
+  height: auto;
   letter-spacing: 0.02em;
 }
 
@@ -111,6 +111,7 @@ img {
   padding-bottom: 25px;
   margin-right: 93px;
   width: 145px;
+  height: auto;
 }
 
 .logo-web {
@@ -189,7 +190,7 @@ img {
   color: var(--top-nav-color);
   display:inline-block;
   width: 696px;
-  height: 120px;
+  height: auto;
   margin-top: 0;
   margin-bottom: 30px;
 }
@@ -298,14 +299,14 @@ margin-right: 0px;
   display: flex;
   flex-wrap: wrap;
   min-width: 1200px;
-  min-height: auto;
+  height: auto;
   
 }
 
 .content-photo {
   display: flex;
   flex-wrap: wrap;
- margin-right: 30px;
+  margin-right: 30px;
   margin-bottom: 0;
   max-width: 370px;
   height: auto;
@@ -412,6 +413,7 @@ margin-right: 0px;
 .team-list .content-heros {
   width: 270px;
 }
+
 .content-heros {
   width: calc((100% -  90px) / 4);
   margin-left: 0;
@@ -434,12 +436,12 @@ margin-right: 0px;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
 margin-right: 30px;
-  margin-bottom: 0;
-  width: 270px;
+margin-bottom: 0;
+width: 270px;
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
-;
+
 }
 
 .content-heros:nth-child(4n) {
@@ -490,6 +492,7 @@ box-sizing: border-box;
   margin-left: auto;
   margin-right: auto;
 }
+
 .title-potfolio {
   background: #FFFFFF;
   text-decoration: var(--head-text-color)
@@ -556,8 +559,8 @@ box-sizing: border-box;
   margin-right: 30px;
   margin-bottom: 30px;
   background: #FFFFFF;
-border: 1px solid #EEEEEE;
-box-sizing: border-box;
+  border: 1px solid #EEEEEE;
+  box-sizing: border-box;
 }
  
 .img-link:nth-child(3n) {
@@ -595,7 +598,7 @@ box-sizing: border-box;
   margin-left: 24px;
   margin-right: 24px;
   width: 322px;
-height: 36px;
+  height: auto;
 }
 
 .type-work {
@@ -611,7 +614,7 @@ height: 36px;
   margin-left: 24px;
   margin-right: 24px;
   width: 322px;
-height: 30px;
+  height: auto;
 }
 
 .footer {
@@ -656,7 +659,7 @@ height: 30px;
 
 .address {
   width: 231px;
-height: auto;
+  height: auto;
   margin-top: 0;
   margin-bottom: 0;
   padding-top: 0;
@@ -691,8 +694,8 @@ height: auto;
   letter-spacing: 0.03em;
   color: white;
   width: 145px;
-height: 31px;
-margin-top: 0;
+  height: auto;
+  margin-top: 0;
   margin-bottom: 20px;
   margin-left: 0;
   margin-right: 0;
@@ -704,6 +707,7 @@ margin-top: 0;
   margin-left: 0;
   margin-right: 0;
 }
+
 .contacts-footer .location:not(:last-child) {
   margin-bottom: 9px;
 }
