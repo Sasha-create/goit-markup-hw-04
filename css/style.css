@@ -112,6 +112,7 @@ img {
   margin-right: 93px;
   width: 145px;
   height: auto;
+  
 }
 
 .logo-web {
@@ -161,17 +162,23 @@ img {
 
 /* head baner*/
 
+.baner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background: var(--dark-background-color);
+  background-image: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .head-baner {
   text-align: center;
-  background: var(--dark-background-color);
   padding-left: 0;
   padding-right: 0;
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
   
 }
 
