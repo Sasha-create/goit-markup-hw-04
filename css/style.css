@@ -160,7 +160,7 @@ img {
   color: var(--accent-color);
 }
 
-.contact-email::before {
+/*.contact-email::before {
   display: inline-block;
   width: 16px;
   height: 12px;
@@ -168,7 +168,7 @@ img {
   margin-right: 10px;
   
   content: "";
-  background-image: url("../images/envelope (hover).svg");
+  background-image: url("../images/sprite.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -182,13 +182,13 @@ img {
   height: 16px;
   margin-right: 10px;
   content: "";
-  background-image: url("../images/phone.svg");
+  background-image: url("../images/sprite.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   fill: "currentColor";
   
-}
+}*/
 
 .contact-phone:hover {
  color: var(--accent-color);
@@ -550,6 +550,47 @@ box-sizing: border-box;
   padding-top: 0;
   padding-bottom: 0;
 }
+
+.social-item {
+  display: flex;
+  justify-content: center;
+  background-color: var(--button-color);
+
+}
+
+.social-item .social-list {
+
+}
+.social-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: var(--icon-color);
+  background-color: var(--button-color);
+  margin-bottom: 30px;
+
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--icon-color);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--button-color)
+}
+
 
 /*Style for portfolio.html*/
 
