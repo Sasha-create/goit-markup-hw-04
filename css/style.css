@@ -72,11 +72,7 @@ img {
   
   }
 
-.contact-nav {
-  display: flex;
-  justify-content: center;
-  margin-left: auto;
-}
+
 
 
 .menu .menu-item+ .menu-item {
@@ -147,8 +143,8 @@ img {
   color: #757575;
 
   display: flex;
-  justify-content: center;
-  text-align: center;
+  margin-left: auto;
+}
 }
 
 
