@@ -982,7 +982,7 @@ padding: 0;
 .footer-social-icon {
   width: 20px;
   height: 20px;
-  fill: var(--icon-color);
+  fill: var(--top-nav-color);
 }
 
 
