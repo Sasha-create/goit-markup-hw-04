@@ -793,6 +793,7 @@ box-sizing: border-box;
 .img-link {
   display: block;
   width: 370px;
+  height: auto;
   margin-right: 30px;
   margin-bottom: 30px;
   background: #FFFFFF;
@@ -801,6 +802,7 @@ box-sizing: border-box;
   
 
 }
+
  
 .img-work .img-item:hover,
 .img-work .img-item:focus {
@@ -809,7 +811,6 @@ box-sizing: border-box;
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
-
 
 
 .img-link:nth-child(3n) {
@@ -826,9 +827,18 @@ box-sizing: border-box;
   width: 370px;
   height: auto;
   margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.img-item {
+  display: block;
+  width: 370px;
+  height: auto;
+  margin-top: 0;
   margin-bottom: 0;
   
 }
+
 
 .img-work a {
   text-decoration-line: none;
@@ -847,16 +857,9 @@ box-sizing: border-box;
   margin-bottom: 4px;
   margin-left: 0;
   margin-right: 0;
+  padding: 0 24px;
   width: auto;
   height: auto;
-}
-
-.portfolio-description {
-  width: auto;
-  height: auto;
-  margin: 0;
-  padding: 20px 24px;
-  
 }
 
 
@@ -869,6 +872,7 @@ box-sizing: border-box;
   color: var(--title-text-color);
   text-decoration-line: none;
   margin: 0;
+  padding: 0 24px 20px 24px;
   width: auto;
   height: auto;
 }
